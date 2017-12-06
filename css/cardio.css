@@ -114,7 +114,7 @@ header {
 	width: 100%;
 	color: white;
 	background: rgba(28, 36, 65, 0.93);
-	background: url('../img/header.jpg');
+	background: url('../img/header.jpeg');
 	background-size: cover;
 }
 
@@ -655,7 +655,7 @@ section {
 
 footer {
 	padding: 140px 0 40px;
-	background: url('../img/footer.jpg');
+	background: url('../img/footer.png');
 	-webkit-background-size: cover;
 	background-size: cover;
 }
