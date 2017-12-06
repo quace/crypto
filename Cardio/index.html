@@ -84,117 +84,65 @@
 		<div class="container">
 			<div class="row intro-tables">
 				<div class="col-md-4">
-					<div class="intro-table intro-table-first">
-						<h5 class="white heading"> <img src='img/bitcoin.png' style='height: 30px;'>&emsp;&emsp;&emsp;Bitcoin (BTC) koers</h5>
-						<div class="owl-carousel owl-schedule bottom">
-							<div class="item">
-								<div class="schedule-row row">
-									<div class="col-xs-6">
-										<h5 class="regular white">Ethereum koers</h5>
-									</div>
-									<div class="col-xs-6 text-right">
-										<h5 class="white"></h5>
-									</div>
-								</div>
-								<div class="schedule-row row">
-									<div class="col-xs-6">
-										<h5 class="regular white">Muscle Building</h5>
-									</div>
-									<div class="col-xs-6 text-right">
-										<h5 class="white">8:30 - 10:00</h5>
-									</div>
-								</div>
-								<div class="schedule-row row">
-									<div class="col-xs-6">
-										<h5 class="regular white">Cardio</h5>
-									</div>
-									<div class="col-xs-6 text-right">
-										<h5 class="white">8:30 - 10:00</h5>
-									</div>
-								</div>
-							</div>
-							<div class="item">
-								<div class="schedule-row row">
-									<div class="col-xs-6">
-										<h5 class="regular white"></h5>
-									</div>
-									<div class="col-xs-6 text-right">
-										<h5 class="white">8:30 - 10:00</h5>
-									</div>
-								</div>
-								<div class="schedule-row row">
-									<div class="col-xs-6">
-										<h5 class="regular white">Muscle Building</h5>
-									</div>
-									<div class="col-xs-6 text-right">
-										<h5 class="white">8:30 - 10:00</h5>
-									</div>
-								</div>
-								<div class="schedule-row row">
-									<div class="col-xs-6">
-										<h5 class="regular white">Cardio</h5>
-									</div>
-									<div class="col-xs-6 text-right">
-										<h5 class="white">8:30 - 10:00</h5>
-									</div>
-								</div>
-							</div>
-							<div class="item">
-								<div class="schedule-row row">
-									<div class="col-xs-6">
-										<h5 class="regular white">Early Exercise</h5>
-									</div>
-									<div class="col-xs-6 text-right">
-										<h5 class="white">8:30 - 10:00</h5>
-									</div>
-								</div>
-								<div class="schedule-row row">
-									<div class="col-xs-6">
-										<h5 class="regular white">Muscle Building</h5>
-									</div>
-									<div class="col-xs-6 text-right">
-										<h5 class="white">8:30 - 10:00</h5>
-									</div>
-								</div>
-								<div class="schedule-row row">
-									<div class="col-xs-6">
-										<h5 class="regular white">Cardio</h5>
-									</div>
-									<div class="col-xs-6 text-right">
-										<h5 class="white">8:30 - 10:00</h5>
-									</div>
-								</div>
-							</div>
-						</div>
+					<div class="intro-table">
+<script type="text/javascript">
+baseUrl = "https://widgets.cryptocompare.com/";
+var scripts = document.getElementsByTagName("script");
+var embedder = scripts[ scripts.length - 1 ];
+var cccTheme = {"Header":{"displayFollowers":false},"Trend":{"colorDown":"#3d9400","colorUnchanged":"#3d9400"}};
+(function (){
+var appName = encodeURIComponent(window.location.hostname);
+if(appName==""){appName="local";}
+var s = document.createElement("script");
+s.type = "text/javascript";
+s.async = true;
+var theUrl = baseUrl+'serve/v2/coin/chart?fsym=BTC&tsym=EUR&period=3M';
+s.src = theUrl + ( theUrl.indexOf("?") >= 0 ? "&" : "?") + "app=" + appName;
+embedder.parentNode.appendChild(s);
+})();
+</script>
+
+
 					</div>
 				</div>
 				<div class="col-md-4">
-					<div class="intro-table intro-table-hover">
-						<h5 class="white heading hide-hover"><img src='img/ether.png'style='height: 30px;'>&emsp;Ethereum (ETH) koers</h5>
-						<div class="bottom">
-							<h4 class="white heading small-heading no-margin regular">€ 400</h4>
-							<h4 class="white heading small-pt">20% Discount</h4>
-							<a href="#" class="btn btn-white-fill expand">Register</a>
-						</div>
-					</div>
+<script type="text/javascript">
+baseUrl = "https://widgets.cryptocompare.com/";
+var scripts = document.getElementsByTagName("script");
+var embedder = scripts[ scripts.length - 1 ];
+var cccTheme = {"Chart":{"fillColor":"#49b100","borderColor":"#3d9400"}};
+(function (){
+var appName = encodeURIComponent(window.location.hostname);
+if(appName==""){appName="local";}
+var s = document.createElement("script");
+s.type = "text/javascript";
+s.async = true;
+var theUrl = baseUrl+'serve/v2/coin/chart?fsym=ETH&tsym=EUR&period=3M';
+s.src = theUrl + ( theUrl.indexOf("?") >= 0 ? "&" : "?") + "app=" + appName;
+embedder.parentNode.appendChild(s);
+})();
+</script>
+
 				</div>
 				<div class="col-md-4">
-					<div class="intro-table intro-table-third">
-						<h5 class="white heading"><img src='img/litecoin.png'style='height: 30px;'>&emsp;&emsp;Litecoin (LTC) koers</h5>
-						<div class="owl-testimonials bottom">
-							<div class="item">
-								<h4 class="white heading content">I couldn't be more happy with the results!</h4>
-								<h5 class="white heading light author">Adam Jordan</h5>
-							</div>
-							<div class="item">
-								<h4 class="white heading content">I can't believe how much better I feel!</h4>
-								<h5 class="white heading light author">Greg Pardon</h5>
-							</div>
-							<div class="item">
-								<h4 class="white heading content">Incredible transformation and I feel so healthy!</h4>
-								<h5 class="white heading light author">Christina Goldman</h5>
-							</div>
-						</div>
+					<div class="intro-table">
+						<script type="text/javascript">
+baseUrl = "https://widgets.cryptocompare.com/";
+var scripts = document.getElementsByTagName("script");
+var embedder = scripts[ scripts.length - 1 ];
+var cccTheme = {"Header":{"displayFollowers":false},"Trend":{"colorDown":"#3d9400","colorUnchanged":"#3d9400"}};
+(function (){
+var appName = encodeURIComponent(window.location.hostname);
+if(appName==""){appName="local";}
+var s = document.createElement("script");
+s.type = "text/javascript";
+s.async = true;
+var theUrl = baseUrl+'serve/v2/coin/chart?fsym=LTC&tsym=EUR&period=3M';
+s.src = theUrl + ( theUrl.indexOf("?") >= 0 ? "&" : "?") + "app=" + appName;
+embedder.parentNode.appendChild(s);
+})();
+</script>
+
 					</div>
 				</div>
 			</div>
